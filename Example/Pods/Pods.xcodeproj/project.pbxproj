@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		03C15D50EF400350889EC629720772EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		05D7EC890189255FEC440E77165DDF55 /* NSSaudacao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18233A2CCAFE9203F0D9DA24B0B9BB /* NSSaudacao-dummy.m */; };
 		0A37CDEAE2F1EBBEA522B88B86718CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		720FDD36FC18C3B8E0457B0DE5EC9FF2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529694DAB148263DBF202944CA44A13F /* ReplaceMe.swift */; };
-		725FBC2ECE65FA33F7358292751DBE0F /* NSSaudacao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837E80496A27C5B78C536E6BE63DE94 /* NSSaudacao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		725FBC2ECE65FA33F7358292751DBE0F /* NSSaudacao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C15669CA0B28867071701D512307DCEA /* NSSaudacao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE5C7FEEEC70A7EAFBDFD64ED4B584F /* NSSaudacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97619A4D3024B8AD8947C987AAEC568 /* NSSaudacao.swift */; };
 		B2D1A03B4E11C79616DDA11642B1BBF2 /* Pods-NSSaudacao_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888AEBFC7BDD57D9EA03CC7094FCE35 /* Pods-NSSaudacao_Tests-dummy.m */; };
 		DF75E2976DA52E20EA317DC28CB55E2F /* Pods-NSSaudacao_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DFA6AA026657AB5C2DF87356FED302 /* Pods-NSSaudacao_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1B0A0C83F94D8251DF16DBE55B63163 /* NSSaudacao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892C2942426CF601487712FD348453A /* NSSaudacao-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,24 +30,24 @@
 		01A54D6D17CC482823BAB0160EAC9C6B /* NSSaudacao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSSaudacao.framework; path = NSSaudacao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AD96BD6311CD4C806BDC00BEF52C36 /* Pods-NSSaudacao_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSSaudacao_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B7FE2559C0FE20F4B48F8C33B0D8DE2 /* Pods-NSSaudacao_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSSaudacao_Tests-resources.sh"; sourceTree = "<group>"; };
-		1AF11CE25564B99200E6AC31E1AA8CFC /* NSSaudacao-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSaudacao-prefix.pch"; sourceTree = "<group>"; };
-		2837E80496A27C5B78C536E6BE63DE94 /* NSSaudacao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSaudacao-umbrella.h"; sourceTree = "<group>"; };
 		324A27B6925B00E3D517FD7547976D1B /* Pods-NSSaudacao_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSSaudacao_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3486B55A113A30B9AA03DD7841E03722 /* Pods-NSSaudacao_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSSaudacao_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4892C2942426CF601487712FD348453A /* NSSaudacao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSaudacao-dummy.m"; sourceTree = "<group>"; };
-		529694DAB148263DBF202944CA44A13F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NSSaudacao/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4E18233A2CCAFE9203F0D9DA24B0B9BB /* NSSaudacao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSaudacao-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6888AEBFC7BDD57D9EA03CC7094FCE35 /* Pods-NSSaudacao_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSSaudacao_Tests-dummy.m"; sourceTree = "<group>"; };
 		7B8FF503CA6B9229A8C94F421DED0EE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F1B265D339EBD20B71A9B605EDC5EF /* Pods-NSSaudacao_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSSaudacao_Tests.modulemap"; sourceTree = "<group>"; };
-		917ABC774B06DA2C7B50A9727E4B0A49 /* NSSaudacao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NSSaudacao.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4D74E004BBE0AA771CA44BDB08F45D6 /* Pods_NSSaudacao_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSSaudacao_Tests.framework; path = "Pods-NSSaudacao_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF3C928FE3EEDA2C022267FB149CA63C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F8EC4EEF4C880A87E06386438635F3 /* NSSaudacao.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSSaudacao.xcconfig; sourceTree = "<group>"; };
+		B97619A4D3024B8AD8947C987AAEC568 /* NSSaudacao.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSSaudacao.swift; path = NSSaudacao/Classes/NSSaudacao.swift; sourceTree = "<group>"; };
+		C15669CA0B28867071701D512307DCEA /* NSSaudacao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSaudacao-umbrella.h"; sourceTree = "<group>"; };
 		C3DFA6AA026657AB5C2DF87356FED302 /* Pods-NSSaudacao_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSSaudacao_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C49E47901CCC610A6262F962F6173587 /* NSSaudacao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NSSaudacao.modulemap; sourceTree = "<group>"; };
 		DB7A40379C9599DAF1AEDD832330D923 /* Pods-NSSaudacao_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSSaudacao_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEFAAE8979CD89E9DFCA60F786841A92 /* Pods-NSSaudacao_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSSaudacao_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSSaudacao.xcconfig; sourceTree = "<group>"; };
+		E92E23AA66A946C5B4957DE9A9339EF0 /* NSSaudacao-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSaudacao-prefix.pch"; sourceTree = "<group>"; };
+		FF0FCEBBA1A4EBA03E72876264649EFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,26 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E8064818DE9EB7CFF41D0652B785A77 /* NSSaudacao */ = {
+			isa = PBXGroup;
+			children = (
+				B97619A4D3024B8AD8947C987AAEC568 /* NSSaudacao.swift */,
+				86B4673A52DDA812BBFE9014E7F63272 /* Support Files */,
+			);
+			name = NSSaudacao;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1F67E733E36F8DED95E36C7B34C73F80 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D822DE9037F2620A4F11F0EB306CD4E3 /* NSSaudacao */,
+				0E8064818DE9EB7CFF41D0652B785A77 /* NSSaudacao */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		35FDFEBCF78E05CD6085781C07F5FA76 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF3C928FE3EEDA2C022267FB149CA63C /* Info.plist */,
-				917ABC774B06DA2C7B50A9727E4B0A49 /* NSSaudacao.modulemap */,
-				F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */,
-				4892C2942426CF601487712FD348453A /* NSSaudacao-dummy.m */,
-				1AF11CE25564B99200E6AC31E1AA8CFC /* NSSaudacao-prefix.pch */,
-				2837E80496A27C5B78C536E6BE63DE94 /* NSSaudacao-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NSSaudacao";
 			sourceTree = "<group>";
 		};
 		4CE46D7B28C162433C6FD38C2D8FCFD2 /* Targets Support Files */ = {
@@ -109,6 +105,20 @@
 				8E489E6F87855BA02BA15E5FE3342F9B /* Products */,
 				4CE46D7B28C162433C6FD38C2D8FCFD2 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86B4673A52DDA812BBFE9014E7F63272 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FCEBBA1A4EBA03E72876264649EFB /* Info.plist */,
+				C49E47901CCC610A6262F962F6173587 /* NSSaudacao.modulemap */,
+				A7F8EC4EEF4C880A87E06386438635F3 /* NSSaudacao.xcconfig */,
+				4E18233A2CCAFE9203F0D9DA24B0B9BB /* NSSaudacao-dummy.m */,
+				E92E23AA66A946C5B4957DE9A9339EF0 /* NSSaudacao-prefix.pch */,
+				C15669CA0B28867071701D512307DCEA /* NSSaudacao-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSSaudacao";
 			sourceTree = "<group>";
 		};
 		8E489E6F87855BA02BA15E5FE3342F9B /* Products */ = {
@@ -134,16 +144,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D822DE9037F2620A4F11F0EB306CD4E3 /* NSSaudacao */ = {
-			isa = PBXGroup;
-			children = (
-				529694DAB148263DBF202944CA44A13F /* ReplaceMe.swift */,
-				35FDFEBCF78E05CD6085781C07F5FA76 /* Support Files */,
-			);
-			name = NSSaudacao;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		FEEC9E7C24AE509FDABD6C6EDB994B2F /* Pods-NSSaudacao_Tests */ = {
@@ -190,7 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB2F75FE105BE3DE249DD7E49D7C7D87 /* Build configuration list for PBXNativeTarget "NSSaudacao" */;
 			buildPhases = (
-				4E95FB2F87CAA042B38D56D3EB6463F1 /* Sources */,
+				2BD5B82004496755C3E40CD126DD0159 /* Sources */,
 				3D0E0D639EB7951F00618D25E39D0B5F /* Frameworks */,
 				D92A9EF07D8BE1735DCDF55F1B689621 /* Headers */,
 			);
@@ -249,12 +249,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E95FB2F87CAA042B38D56D3EB6463F1 /* Sources */ = {
+		2BD5B82004496755C3E40CD126DD0159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B0A0C83F94D8251DF16DBE55B63163 /* NSSaudacao-dummy.m in Sources */,
-				720FDD36FC18C3B8E0457B0DE5EC9FF2 /* ReplaceMe.swift in Sources */,
+				05D7EC890189255FEC440E77165DDF55 /* NSSaudacao-dummy.m in Sources */,
+				9DE5C7FEEEC70A7EAFBDFD64ED4B584F /* NSSaudacao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +374,7 @@
 		};
 		380E967DCF10DA408A767901B06180D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */;
+			baseConfigurationReference = A7F8EC4EEF4C880A87E06386438635F3 /* NSSaudacao.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -495,7 +495,7 @@
 		};
 		EA5955E66EDD22039C4EE3648C8F4CF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */;
+			baseConfigurationReference = A7F8EC4EEF4C880A87E06386438635F3 /* NSSaudacao.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
